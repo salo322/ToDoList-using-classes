@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+	box-sizing: border-box;
+	
+}
+
+h1 {
+	color: #000;
+	font-weight: 50;
+	text-align: center;
+    margin: 20px 0;
+	font-family: 'Hind', sans-serif;
+}
+
+.title{
+	color:#ce6262;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0.25rem;
+    transition: .5s;
+	font-size: 1.15rem;
+	width: 350px;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 40px;
+	width: 80px;
+	border-radius: 5px;
+    background-color: #ce6262;
+	cursor: pointer;
+	font-size: 20px;
+	color:#fff;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #000;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: #000;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: lime;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #E00;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
+.add-input{
+	height: 30px;
+	width: 300px;
+	border-bottom: 2px solid #ce6262;
+	border-left: 1px solid #ce6262;
+	padding: 15px;
+    width: 230px;
+}
+.main-to-do-list-container{
+	margin: 10px;
+	display: flex;
+}
+.edit-icon{
+	height: 36px;
+    margin: 0 15px;
+}
+.delete-icon{
+	height: 36px;
+}
+.edit-icon:hover{
+	height: 40px;
+    margin: 0 15px;
+}
+.delete-icon:hover{
+	height: 40px;
+}
